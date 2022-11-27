@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Square+Peg&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+
+:root{
+    --cor1: white;
+    --cor2: rgb(3, 158, 41);
+    --cor3: green;
+    --cor4: black;
+
+    --fonte-padrao: Arial, verdana, helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+    --font-android: 'Android', cursive;
+
+    --font: 'Square Peg', cursive;
+    --font1: 'Oleo Script', cursive;
+    --font3: 'Bangers', cursive;
+
+}
+
+input {
+  align-self: center;
+  background-color: #88bcd1;
+  border-radius: 10px;
+  box-shadow: 2px 4px 4px #0000009F;
+  color: #272626;
+  text-decoration: bold;
+  cursor: pointer;
+  font-size: 1.25rem;
+  padding: 16px;
+  width: 150px;
+
+}
+
+body{
+    background-image: url('fundo.jpg');
+    margin:0px;
+    background-position: center top ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header{
+    background-image: url('Capa1.jpg');
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: 28cm 12cm;
+    text-align: center;
+    min-height: 150px;
+}
+
+header > h1 {
+    color: var(--cor1);
+    font-family: var(--font1);
+    font-size: 75px;
+    color: var(--cor1);
+    text-align: centerl;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
+}
+
+header > h2{
+    padding-bottom: 40px;
+    margin: 0px;
+
+}
+
+nav{
+    background-color: hsl(119, 82%, 38%);
+    padding: 10px;
+    text-align: center;
+    width: 26cm;
+    margin: auto;
+}
+
+nav > a{
+    color: var(--cor1);
+    padding: 10px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: #0b8809d7;
+}
+
+main{
+    padding: 10px;
+    padding-left:30px;
+    padding-right:30px;
+    margin: auto;
+    background: hsl(119, 82%, 38%);
+    text-align: center;
+    height: 18cm;
+    width: 25cm;
+    background-image: linear-gradient(to right,#141DA3, #78A5FF);
+}
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+
+}
+
+.frases{
+    background: white;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    padding: 10px;
+    font-family: Helvetica;
+
+}
+
+h2{
+    color: var(--cor1);
+}
+
+img{
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 10;
+    max-width: 400px;
+    min-width: 400px;
+    max-height: 350px;
+    min-height: 350px;
+}
